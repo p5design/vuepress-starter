@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# scp目标服务器与目录
+scp_tar=""
+# 运行模式
+run_mode="$1"
+
+function execCmd(){
+  cmd="$1"
+  scppath="$2"
+  if [ "$cmd" == "dev" ]
+  then
+    npm run dev
+  fi
+
+  if [ "$cmd" == "build" ]
+  then
+    npm run build
+  fi
+
+  if [ "$cmd" == "public" ]
+  then
+    scp -r 04_markdown/.vuepress/dist/* $scppath
+  fi
+
+  if [ "$cmd" == "all" ]
+  then
+    npm run build
+    scp -r 04_markdown/.vuepress/dist/* $scppath
+  fi
+}
+
+if [ -z "$run_mode" ]
+then
+   echo ""
+   echo "Usage: doc_run <command>"
+   echo ""
+	 echo "Commands:"
+   echo " dev             // preview docs"
+   echo " build           // build docs"
+   echo " public          // send docs to server"
+   echo " all             // build + public"
+   echo ""
+else
+  execCmd $run_mode $scp_tar
+fi
+
+
