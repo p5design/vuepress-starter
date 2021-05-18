@@ -43,13 +43,13 @@ $ROOT/                                # 根目录
 # 查看说明
 doc_run
 
-# 预览
+# 预览文档
 doc_run dev
 
-# 编译
+# 编译文档
 doc_run build
 
-# 发布到指定服务器
+# 拷贝编译后的文档到指定服务器目录下
 # 重要:需要先补全doc_run文件中的scp_tar参数，例如 xxx@192.168.1.1:/opt/xxxx 
 doc_run public
 
