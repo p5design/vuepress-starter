@@ -4,11 +4,13 @@
 
 ## 项目依赖
 
-| 库                           | 版本  | 说明         |
-| :--------------------------- | :---- | :----------- |
-| vuepress                     | 1.8.2 | 生成文档     |
-| @vuepress/plugin-back-to-top | 1.8.2 | 返回文档顶部 |
-| vuepress-plugin-auto-sidebar | 2.2.2 | 生成侧边栏   |
+| 库                           | 版本  | 说明           |
+| :--------------------------- | :---- | :------------- |
+| vuepress                     | 1.8.2 | 生成文档       |
+| vuepress-plugin-auto-sidebar | 2.2.2 | 生成侧边栏链接 |
+| @vuepress/plugin-back-to-top | 1.8.2 | 返回文档顶部   |
+| @vuepress/plugin-nprogress   | 1.8.2 | 显示加载进度条 |
+
 
 
 ## 目录结构
@@ -22,13 +24,12 @@ $ROOT/                                # 根目录
   |   |-- .vuepress/                  # vuepress配置目录
   |   |   |-- dist/                   # 打包目录
   |   |   |-- utils/                  # 帮助js文件
-  |   |   |-- config.js
-  |   |   |-- headConf.js
-  |   |   |-- navConf.js
-  |   |   |-- pluginConf.js
-  |   |-- data/
+  |   |   |-- config.js               # 项目基本信息（根据项目自定修改）
+  |   |   |-- navConf.js              # 导航栏链接（根据项目自行修改）
+  |   |   |-- pluginConf.js           # 插件配置
+  |   |-- data/                       # 【数据结构】目录
   |   |   |-- README.md               # 【数据结构】入口文件
-  |   |-- api/
+  |   |-- api/                        # 【数据接口】目录
   |   |   |-- README.md               # 【数据接口】入口文件
   |   |-- README.md                   # 【首页】入口文件
   |-- doc_run                         # 文档辅助命令，包括预览，打包，发布
