@@ -32,7 +32,27 @@ $ROOT/                                # 根目录
   |   |-- api/                        # 【数据接口】目录
   |   |   |-- README.md               # 【数据接口】入口文件
   |   |-- README.md                   # 【首页】入口文件
-  |-- doc_run                         # 文档辅助命令，包括预览，打包，发布
+  |-- doc_run                         # 辅助脚本，包括预览，打包，发布
   |-- package.json                    # 项目依赖配置
   |-- README.md                       # 本说明文件
+```
+
+## doc_run 脚本说明
+
+```bash
+# 查看说明
+doc_run
+
+# 预览
+doc_run dev
+
+# 编译
+doc_run build
+
+# 发布到指定服务器
+# 重要:需要先补全doc_run文件中的scp_tar参数，例如 xxx@192.168.1.1:/opt/xxxx 
+doc_run public
+
+# 编译+发布
+doc_run all
 ```
