@@ -4,12 +4,14 @@
 
 ## 项目依赖
 
-| 库                           | 版本  | 说明           |
-| :--------------------------- | :---- | :------------- |
-| vuepress                     | 1.8.2 | 生成文档       |
-| vuepress-plugin-auto-sidebar | 2.2.2 | 生成侧边栏链接 |
-| @vuepress/plugin-back-to-top | 1.8.2 | 返回文档顶部   |
-| @vuepress/plugin-nprogress   | 1.8.2 | 显示加载进度条 |
+| 库                             | 版本  | 说明                   |
+| :----------------------------- | :---- | :--------------------- |
+| vuepress                       | 1.8.2 | 生成文档               |
+| vuepress-plugin-auto-sidebar   | 2.2.3 | 生成侧边栏链接         |
+| vuepress-plugin-image          | 1.0.4 | 控制图片大小，懒加载等 |
+| @vuepress/plugin-back-to-top   | 1.8.2 | 返回文档顶部           |
+| @vuepress/plugin-nprogress     | 1.8.2 | 显示加载进度条         |
+| markdown-it-disable-url-encode | 1.0.1 | 图片路径支持中文       |
 
 
 
@@ -25,6 +27,7 @@ $ROOT/                                # 根目录
   |   |   |-- dist/                   # 打包目录
   |   |   |-- utils/                  # 帮助js文件
   |   |   |-- config.js               # 项目基本信息（根据项目自定修改）
+  |   |   |-- mdConf.js               # markdown插件配置（根据项目自行修改）
   |   |   |-- navConf.js              # 导航栏链接（根据项目自行修改）
   |   |   |-- pluginConf.js           # 插件配置
   |   |-- data/                       # 【数据结构】目录
