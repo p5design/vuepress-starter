@@ -2,6 +2,27 @@
 
 提供开箱即用的项目文档脚手架
 
+
+## 快速开始
+
+```bash
+# 下载项目到本地
+# --depth 1 参数可以清除历史记录
+git clone --depth 1 https://github.com/p5design/vuepress-starter.git
+
+# 进入目录
+cd vuepress-starter
+
+# 安装依赖
+npm install
+
+# 启动开发模式
+npm run dev
+
+# 或使用 doc_run 脚本启动开发模式
+./blog_run dev
+```
+
 ## 项目依赖与功能
 
 | 依赖库                                                                                                | 版本  | 功能说明               |
