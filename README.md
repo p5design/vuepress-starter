@@ -1,18 +1,17 @@
 # vuepress-starter
 
-基于 vuepress 实现的文档脚手架，帮你配置导航信息与提供辅助运行脚本
+提供开箱即用的项目文档脚手架
 
-## 项目依赖
+## 项目依赖与功能
 
-| 库                             | 版本  | 说明                   |
-| :----------------------------- | :---- | :--------------------- |
-| vuepress                       | 1.8.2 | 生成文档               |
-| vuepress-plugin-auto-sidebar   | 2.2.3 | 生成侧边栏链接         |
-| vuepress-plugin-image          | 1.0.4 | 控制图片大小，懒加载等 |
-| @vuepress/plugin-back-to-top   | 1.8.2 | 返回文档顶部           |
-| @vuepress/plugin-nprogress     | 1.8.2 | 显示加载进度条         |
-| markdown-it-disable-url-encode | 1.0.1 | 图片路径支持中文       |
-
+| 依赖库                                                                                                | 版本  | 功能说明               |
+| :---------------------------------------------------------------------------------------------------- | :---- | :--------------------- |
+| [vuepress](https://github.com/vuejs/vuepress)                                                         | 1.8.2 | 生成文档               |
+| [vuepress-plugin-auto-sidebar](https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar)          | 2.2.3 | 生成侧边栏链接         |
+| [vuepress-plugin-image](https://github.com/im/vuepress-plugin-image)                                  | 1.0.4 | 控制图片大小，懒加载等 |
+| [@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html) | 1.8.2 | 返回文档顶部           |
+| [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/plugin/official/plugin-nprogress.html)     | 1.8.2 | 显示加载进度条         |
+| [markdown-it-disable-url-encode](https://github.com/nanyuantingfeng/markdown-it-disable-url-encode)   | 1.0.1 | 图片路径支持中文       |
 
 
 ## 目录结构
@@ -25,7 +24,7 @@ $ROOT/                                # 根目录
   |-- 04_markdown/                    # 文档源文件
   |   |-- .vuepress/                  # vuepress配置目录
   |   |   |-- dist/                   # 打包目录
-  |   |   |-- utils/                  # 帮助js文件
+  |   |   |-- utils/                  # js文件目录
   |   |   |-- config.js               # 项目基本信息（根据项目自定修改）
   |   |   |-- mdConf.js               # markdown插件配置（根据项目自行修改）
   |   |   |-- navConf.js              # 导航栏链接（根据项目自行修改）

@@ -1,4 +1,20 @@
 {
+  "name": "vuepress-starter",
+  "version": "0.0.2",
+  "description": "Provide out-of-the-box project documentation scaffolding",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/p5design/vuepress-starter.git"
+  },
+  "keywords": [
+    "vue",
+    "vuepress"
+  ],
+  "author": "pangwu86<pangwu86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/p5design/vuepress-starter/issues"
+  },
   "scripts": {
     "dev": "vuepress dev 04_markdown",
     "build": "vuepress build 04_markdown"
