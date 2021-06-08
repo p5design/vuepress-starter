@@ -5,6 +5,8 @@
 
 ## 快速开始
 
+首选确保本地的 `Node Version >= 10.0`
+
 ```bash
 # 下载项目到本地
 # --depth 1 参数可以清除历史记录
@@ -20,7 +22,7 @@ npm install
 npm run dev
 
 # 或使用 doc_run 脚本启动开发模式
-./blog_run dev
+doc_run dev
 ```
 
 ## 项目依赖与功能
@@ -66,16 +68,16 @@ $ROOT/                                # 根目录
 # 查看说明
 doc_run
 
-# 预览文档
+# 预览文档（开发模式）
 doc_run dev
 
-# 编译文档
+# 编译文档（发布模式）
 doc_run build
 
 # 拷贝编译后的文档到指定服务器目录下
 # 重要:需要先补全doc_run文件中的scp_tar参数，例如 xxx@192.168.1.1:/opt/xxxx 
 doc_run public
 
-# 编译+发布
+# 编译+发布，依次执行 build 和 public
 doc_run all
 ```
