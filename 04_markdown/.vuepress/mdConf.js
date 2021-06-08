@@ -1,4 +1,4 @@
-const mdItDisableUrlEncode = require("markdown-it-disable-url-encode");
+const mdItDisableUrlEncode = require("@pangwu86/markdown-it-disable-url-encode");
 const mdItImsize = require("markdown-it-imsize");
 const mdItImLazyLoading = require("markdown-it-image-lazy-loading");
 module.exports = {

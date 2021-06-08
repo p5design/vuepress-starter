@@ -27,14 +27,14 @@ doc_run dev
 
 ## 项目依赖与功能
 
-| 依赖库                                                                                                | 版本  | 功能说明               |
-| :---------------------------------------------------------------------------------------------------- | :---- | :--------------------- |
-| [vuepress](https://github.com/vuejs/vuepress)                                                         | 1.8.2 | 生成文档               |
-| [vuepress-plugin-auto-sidebar](https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar)          | 2.2.3 | 生成侧边栏链接         |
-| [vuepress-plugin-image](https://github.com/im/vuepress-plugin-image)                                  | 1.0.4 | 控制图片大小，懒加载等 |
-| [@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html) | 1.8.2 | 返回文档顶部           |
-| [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/plugin/official/plugin-nprogress.html)     | 1.8.2 | 显示加载进度条         |
-| [markdown-it-disable-url-encode](https://github.com/nanyuantingfeng/markdown-it-disable-url-encode)   | 1.0.1 | 图片路径支持中文       |
+| 依赖库                                                                                                 | 版本  | 功能说明               |
+| :----------------------------------------------------------------------------------------------------- | :---- | :--------------------- |
+| [vuepress](https://github.com/vuejs/vuepress)                                                          | 1.8.2 | 生成文档               |
+| [vuepress-plugin-auto-sidebar](https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar)           | 2.2.3 | 生成侧边栏链接         |
+| [vuepress-plugin-image](https://github.com/im/vuepress-plugin-image)                                   | 1.0.4 | 控制图片大小，懒加载等 |
+| [@vuepress/plugin-back-to-top](https://v1.vuepress.vuejs.org/plugin/official/plugin-back-to-top.html)  | 1.8.2 | 返回文档顶部           |
+| [@vuepress/plugin-nprogress](https://v1.vuepress.vuejs.org/plugin/official/plugin-nprogress.html)      | 1.8.2 | 显示加载进度条         |
+| [@pangwu86/markdown-it-disable-url-encode](https://github.com/pangwu86/markdown-it-disable-url-encode) | 1.0.1 | 图片路径支持中文       |
 
 
 ## 目录结构
